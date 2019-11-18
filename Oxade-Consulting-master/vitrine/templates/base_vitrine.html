@@ -1,0 +1,74 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+
+		<title>Oxade</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="Content-Type" content="UTF-8">
+		<meta name="Content-Language" content="fr">
+		<meta property="og:site_name" content="Oxade">
+		<meta property="og:url" content="https://www.oxade.com">
+		<meta property="og:type" content="website">
+
+		{% block seo %} {% endblock %}
+
+
+		<!-- <script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script> -->
+		
+		<link rel="shortcut icon" type="img/png" href="{% static 'vitrine/img/logo_oxade.png' %}">
+
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/open_iconic_bootstrap.min.css' %}"> -->
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/animate.css' %}"> -->
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/owl.carousel.min.css' %}"> -->
+		<link rel="stylesheet" href="{% static 'vitrine/css/owl.theme.default.min.css' %}">
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/magnific_popup.css' %}"> -->
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/aos.css' %}"> -->
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/ionicons.min.css' %}"> -->
+		<link rel="stylesheet" href="{% static 'vitrine/css/flaticon.css' %}">
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/icomoon.css' %}"> -->
+		<!-- <link rel="stylesheet" href="{% static 'vitrine/css/style.css' %}"> -->
+
+		{% block link %} {% endblock %}
+		
+	</head>
+	<body>
+
+
+	{% include 'annexe/navbar.html' %}
+
+		{% block content %}
+
+    	{% endblock %}
+	
+	{% include 'annexe/footer.html' %}
+
+		
+		<script src="{% static 'vitrine/js/jquery.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery_migrate_3.0.1.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/popper.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript'"></script>
+		<script src="{% static 'vitrine/js/bootstrap.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript'"></script>
+		<script src="{% static 'vitrine/js/jquery.easing.1.3.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.waypoints.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.stellar.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/owl.carousel.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.magnific_popup.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/aos.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/jquery.animateNumber.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/scrollax.min.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/main.js' %}" type="e0d04e41b890f86bba8f9763-text/javascript"></script>
+		<script src="{% static 'vitrine/js/rocket.js' %}" data-cf-settings="e0d04e41b890f86bba8f9763-|49" defer=""></script>
+		<script type="e0d04e41b890f86bba8f9763-text/javascript">
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag(){
+				dataLayer.push(arguments);
+			}
+			  gtag('js', new Date());
+			  gtag('config', 'UA-23581568-13');
+		</script>
+		<script src="{% static 'vitrine/js/modernizr.js' %}"></script>
+		<noscript>Your browser does not support JavaScript!</noscript>
+	</body>
+</html>
