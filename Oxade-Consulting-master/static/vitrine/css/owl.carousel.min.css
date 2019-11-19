@@ -3,15 +3,6 @@
 	-webkit-tap-highlight-color:transparent;
 position:relative}
 
-.webp .fond-webp
-{
-	background-image: url(../img/webp/fond_defense.webp);
-}
-.no-webp .fond-webp
-{
-	background-image: url(../img/fond_defense.png);
-}
-
 .owl-carousel
 {
 	display:none;
